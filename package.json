@@ -28,7 +28,7 @@
         "@hapi/joi-legacy-test": "npm:@hapi/joi@15.x.x"
     },
     "scripts": {
-        "prepublishOnly": "cd browser && npm install && npm run build",
+        "prepublishOnly": "cd browser && yarn install && yarn run build",
         "test": "lab -t 100 -a @hapi/code -L -Y",
         "test-cov-html": "lab -r html -o coverage.html -a @hapi/code"
     },
