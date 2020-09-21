@@ -32,5 +32,8 @@
         "test": "lab -t 100 -a @hapi/code -L -Y",
         "test-cov-html": "lab -r html -o coverage.html -a @hapi/code"
     },
-    "license": "BSD-3-Clause"
+    "license": "BSD-3-Clause",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    }
 }
